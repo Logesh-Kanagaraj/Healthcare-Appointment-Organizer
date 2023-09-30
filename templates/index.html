@@ -1,0 +1,179 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>HEALTHCARE APPOINTMENT ORAGANIZER</title>
+        <link rel="icon" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ4IDQ4OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNDggNDgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxsaW5lYXJHcmFkaWVudCBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9IlNWR0lEXzFfIiB4MT0iMjQiIHgyPSIyNCIgeTE9IjE2LjcxMTIiIHkyPSIzOS4yNjkxIj48c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDc5RkEiLz48c3RvcCBvZmZzZXQ9IjAuNTI3NCIgc3R5bGU9InN0b3AtY29sb3I6IzAwNkJFOCIvPjxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwNUNENSIvPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZD0iTTQ1LDE3SDN2MjBjMCwxLjEwNSwwLjg5NSwyLDIsMmgzOGMxLjEwNSwwLDItMC44OTUsMi0yVjE3eiIgc3R5bGU9ImZpbGw6dXJsKCNTVkdJRF8xXyk7Ii8+PGxpbmVhckdyYWRpZW50IGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIC0xIDQ4IDM0Ljk3MTMpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9IlNWR0lEXzJfIiB4MT0iMjQiIHgyPSIyNCIgeTE9IjE3LjU1ODIiIHkyPSIzNC4yMDUzIj48c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDhFRkYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMEQ1RkYiLz48L2xpbmVhckdyYWRpZW50PjxwYXRoIGQ9Ik00NSwxN0wyNi4zNjYsMi44MDJjLTEuMzk3LTEuMDY1LTMuMzM0LTEuMDY1LTQuNzMxLDBMMywxN0g0NXoiIHN0eWxlPSJmaWxsOnVybCgjU1ZHSURfMl8pOyIvPjxwb2x5Z29uIHBvaW50cz0iMjUsMTcgMjUsMzkgMzYsMzkgIiBzdHlsZT0iZmlsbDojMDAzMzY2OyIvPjxsaW5lYXJHcmFkaWVudCBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9IlNWR0lEXzNfIiB4MT0iMzAuNjU3MyIgeDI9IjM3Ljc4MzciIHkxPSIyNy45MjIiIHkyPSIyNC4zODY0Ij48c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDhFRkYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMEQ1RkYiLz48L2xpbmVhckdyYWRpZW50PjxwYXRoIGQ9Ik0yNSwxN2wxNC42MTksMTAuMDVjMC43OTksMC41NDksMS4wODksMS41OTMsMC42ODgsMi40NzZMMzYsMzlMMjUsMTd6IiBzdHlsZT0iZmlsbDp1cmwoI1NWR0lEXzNfKTsiLz48Y2lyY2xlIGN4PSIxNCIgY3k9IjI4IiByPSI2IiBzdHlsZT0iZmlsbDojRkZGRkZGOyIvPjxyYWRpYWxHcmFkaWVudCBjeD0iMTMuMjg0NiIgY3k9IjI1LjE4ODciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBpZD0iU1ZHSURfNF8iIHI9IjQuOTc4NCI+PHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRTk0MDFFIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojRTkxRTFFIi8+PC9yYWRpYWxHcmFkaWVudD48cGF0aCBkPSJNMTQuNSwzMmgtMWMtMC4yNzYsMC0wLjUtMC4yMjQtMC41LTAuNXYtN2MwLTAuMjc2LDAuMjI0LTAuNSwwLjUtMC41aDEgIGMwLjI3NiwwLDAuNSwwLjIyNCwwLjUsMC41djdDMTUsMzEuNzc2LDE0Ljc3NiwzMiwxNC41LDMyeiIgc3R5bGU9ImZpbGw6dXJsKCNTVkdJRF80Xyk7Ii8+PHJhZGlhbEdyYWRpZW50IGN4PSIyOTMuMjg0NSIgY3k9IjE3My4xODg3IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAgMSAtMSAwIDE5MCAtMjY2KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGlkPSJTVkdJRF81XyIgcj0iNC45Nzg0Ij48c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNFOTQwMUUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiNFOTFFMUUiLz48L3JhZGlhbEdyYWRpZW50PjxwYXRoIGQ9Ik0xMCwyOC41di0xYzAtMC4yNzYsMC4yMjQtMC41LDAuNS0wLjVoN2MwLjI3NiwwLDAuNSwwLjIyNCwwLjUsMC41djEgIGMwLDAuMjc2LTAuMjI0LDAuNS0wLjUsMC41aC03QzEwLjIyNCwyOSwxMCwyOC43NzYsMTAsMjguNXoiIHN0eWxlPSJmaWxsOnVybCgjU1ZHSURfNV8pOyIvPjwvc3ZnPg==">
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+        <link href="{%  static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+        <link href="{%  static 'css/bootstrap-icons.css' %}" rel="stylesheet">
+
+        <link href="{%  static 'css/owl.carousel.min.css' %}" rel="stylesheet">
+
+        <link href="{%  static 'css/owl.theme.default.min.css' %}" rel="stylesheet">
+
+        <link href="{%  static 'css/templatemo-medic-care.css' %}" rel="stylesheet">
+
+    </head>
+    
+    <body id="top">
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
+                <div class="container">
+                    <a class="navbar-brand mx-auto d-lg-none" href="index.html">
+                        HEALTHCARE 
+                        <strong class="d-block">APPOINTMENT ORAGANIZER</strong>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <a class="navbar-brand d-none d-lg-block" href="http://127.0.0.1:8000/">
+                                HEALTHCARE
+                                <strong class="d-block">APPOINTMENT ORAGANIZER</strong>
+                            </a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://127.0.0.1:8000/register">LOGIN</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+            <section class="hero" id="hero">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="{%  static 'images\slider\doctor-s-hand-holding-stethoscope-closeup.jpg' %}" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="heroText d-flex flex-column justify-content-center">
+
+                                <h1 class="mt-auto mb-2">
+                                    Better
+                                    <div class="animated-info">
+                                        <span class="animated-item">health</span>
+                                        <span class="animated-item">days</span>
+                                        <span class="animated-item">lives</span>
+                                    </div>
+                                </h1>
+
+                                <p class="mb-4">Experience the soothing convenience of our Healthcare Appointment Organizer, where we prioritize your well-being and make managing medical appointments a seamless and stress-free journey.</p>
+
+                                <div class="heroLinks d-flex flex-wrap align-items-center">
+                                    <a class="custom-link me-4" href="http://127.0.0.1:8000/login" data-hover="GET APPOINTMENT DETAILS" style="background-color: #247cff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">GET DOCTOR APPOINTMENT </a>
+
+                                    <a class="custom-link me-4" href="http://127.0.0.1:8000/login" data-hover="VIEW DOCTOR APPOINTMENT DETAILS" style="background-color: #247cff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">VIEW DOCTOR APPOINTMENT DETAILS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5 col-12 mx-auto">
+                            <div class="featured-circle bg-white shadow-lg d-flex justify-content-center align-items-center">
+                                <p class="featured-text"><span class="featured-number">24/7</span><br></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding pb-0" id="timeline">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="text-center mb-lg-5 mb-4">Our Timeline</h2>
+                        
+                        <div class="timeline">
+                            <!-- First Timeline Entry -->
+                            <div class="row g-0 justify-content-start justify-content-md-between align-items-start timeline-nodes">
+                                <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-2 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class="text-light">Get the vaccine</h3>
+                                    <p>“If you want to save your child from polio, you can pray or you can inoculate. ... Choose science.”</p>
+                                </div>
+            
+                                <div class="col-3 col-sm-1 order-1 timeline-icons text-md-center">
+                                    <i class="bi-patch-check-fill timeline-icon"></i>
+                                </div>
+                            </div>
+            
+                            <!-- Second Timeline Entry -->
+                            <div class="row g-0 justify-content-start justify-content-md-between align-items-start timeline-nodes my-lg-5 my-4">
+                                <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-2 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class="text-light">Consulting your health</h3>
+                                    <p>“Wherever the art of medicine is loved, there is also a love of humanity.”</p>
+                                </div>
+            
+                                <div class="col-3 col-sm-1 order-1 timeline-icons text-md-center">
+                                    <i class="bi-book timeline-icon"></i>
+                                </div>
+                            </div>
+            
+                            <!-- Third Timeline Entry -->
+                            <div class="row g-0 justify-content-start justify-content-md-between align-items-start timeline-nodes">
+                                <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-2 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class="text-light">Certified Nurses</h3>
+                                    <p>"As a nurse we have the opportunity to heal the mind, soul, heart, and body of our patients. They may forget your name but they will never forget how you made them feel."</p>
+                                </div>
+            
+                                <div class="col-3 col-sm-1 order-1 timeline-icons text-md-center">
+                                    <i class="bi-file-medical timeline-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+        </main>
+
+        <footer class="site-footer section-padding" id="contact">
+            <div class="container">
+                <p><b>HEALTHCARE APPOINTMENT ORAGANIZER</b></p>
+                <p>Made by Logesh Kanagaraj</p>
+                <p>&copy; 2023 Logesh Techworks. All Rights Reserved.</p>
+                </div>
+            </section>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="{%  static 'js/jquery.min.js' %}"></script>
+        <script src="{%  static 'js/bootstrap.bundle.min.js' %}"></script>
+        <script src="{%  static 'js/owl.carousel.min.js' %}"></script>
+        <script src="{%  static 'js/scrollspy.min.js' %}"></script>
+        <script src="{%  static 'js/custom.js' %}"></script>
+    </body>
+</html>
